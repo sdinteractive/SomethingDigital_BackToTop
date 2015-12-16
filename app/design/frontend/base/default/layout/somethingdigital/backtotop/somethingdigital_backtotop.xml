@@ -3,15 +3,13 @@
   <default>
     <reference name="head">
         <action method="addItem">
-          <type>skin_js</type>
-          <name>js/somethingdigital/back-to-top.js</name>
-        </action>
-        <action method="addItem">
           <type>skin_css</type>
           <name>css/somethingdigital/back-to-top.css</name>
         </action>
     </reference>
     <reference name="before_body_end">
+        <block type="core/template" name="back.to.top.config" template="somethingdigital/backtotop/data/config.phtml" />
+        <block type="core/template" name="back.to.top.js" template="somethingdigital/backtotop/data/js.phtml" />
         <block type="core/template" name="back.to.top" template="somethingdigital/backtotop/back-to-top.phtml" />
     </reference>
   </default>
