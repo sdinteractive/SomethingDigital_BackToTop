@@ -19,10 +19,8 @@
  */
 ?>
 
-<?php if($this->helper('sd_backtotop')->isEnabled()): ?>
-  <script type="text/javascript">
-    var BackToTopConfig = {};
-    BackToTopConfig.speed = <?php echo $this->helper('sd_backtotop')->getScrollSpeed(); ?>;
-    BackToTopConfig.persist = "<?php echo $this->helper('sd_backtotop')->getPersistMethod(); ?>";
-  </script>
-<?php endif; ?>
+<script type="text/javascript">
+  var BackToTopConfig = {};
+  BackToTopConfig.speed = <?php echo $this->helper('sd_backtotop')->getScrollSpeed(); ?>;
+  BackToTopConfig.persist = "<?php echo $this->helper('sd_backtotop')->getPersistMethod(); ?>";
+</script>
