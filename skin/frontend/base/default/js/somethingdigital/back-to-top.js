@@ -25,12 +25,12 @@
     },
     bindPersistShow: function() {
       $(window).scroll(function() {
-        if ($(window).scrollTop() > 300) {
+        if ($(window).scrollTop() > this.scrollAppears) {
           $('#back-to-top').fadeIn();
         } else {
           $('#back-to-top').fadeOut();
         }
-      });
+      }.bind(this));
     },
     bindScrollShow: function() {
       var lastScrollTop = 0;
