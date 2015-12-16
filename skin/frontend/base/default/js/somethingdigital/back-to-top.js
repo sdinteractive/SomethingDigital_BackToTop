@@ -3,7 +3,6 @@
     scrollAppears: 300,
     scrollSpeed: BackToTopConfig.speed,
     persistMethod: BackToTopConfig.persist,
-    anchorSide: 'left',
 
     init: function() {
       if(this.persistMethod === 'persist') {
