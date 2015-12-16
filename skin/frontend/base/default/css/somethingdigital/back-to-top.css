@@ -1,0 +1,22 @@
+.back-to-top {
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  display: none;
+  padding: 5px;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  word-wrap: break-word;
+  color: #000;
+  background: #eee;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.back-to-top__up-arrow {
+  display: block;
+  margin-bottom: 5px;
+}

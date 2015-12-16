@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <SomethingDigital_BackToTop>
+      <version>1.0.0</version>
+    </SomethingDigital_BackToTop>
+  </modules>
+  <frontend>
+    <layout>
+      <updates>
+        <sd_backtotop>
+          <file>somethingdigital/backtotop/somethingdigital_backtotop.xml</file>
+        </sd_backtotop>
+      </updates>
+    </layout>
+  </frontend>
+</config>
