@@ -5,6 +5,18 @@
       <version>1.0.0</version>
     </SomethingDigital_BackToTop>
   </modules>
+  <global>
+    <helpers>
+      <sd_backtotop>
+        <class>SomethingDigital_BackToTop_Helper</class>
+      </sd_backtotop>
+    </helpers>
+    <models>
+        <sd_backtotop>
+            <class>SomethingDigital_BackToTop_Model</class>
+        </sd_backtotop>
+    </models>
+  </global>
   <frontend>
     <layout>
       <updates>
@@ -14,4 +26,16 @@
       </updates>
     </layout>
   </frontend>
+  <default>
+    <sd_backtotop>
+      <options>
+        <enabled>1</enabled>
+        <persist>1</persist>
+        <scroll>500</scroll>
+      </options>
+      <design>
+        <frontendtext>Back to Top</frontendtext>
+      </design>
+    </sd_backtotop>
+  </default>
 </config>

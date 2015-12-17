@@ -3,16 +3,26 @@
   <default>
     <reference name="head">
         <action method="addItem">
-          <type>skin_js</type>
-          <name>js/somethingdigital/back-to-top.js</name>
-        </action>
-        <action method="addItem">
           <type>skin_css</type>
           <name>css/somethingdigital/back-to-top.css</name>
         </action>
     </reference>
     <reference name="before_body_end">
-        <block type="core/template" name="back.to.top" template="somethingdigital/backtotop/back-to-top.phtml" />
+        <block type="core/template" name="back.to.top.config">
+            <action method="setTemplate" ifconfig="sd_backtotop/options/enabled">
+               <template>somethingdigital/backtotop/data/config.phtml</template>
+            </action>
+        </block>
+        <block type="core/template" name="back.to.top.js">
+            <action method="setTemplate" ifconfig="sd_backtotop/options/enabled">
+               <template>somethingdigital/backtotop/data/js.phtml</template>
+            </action>
+        </block>
+        <block type="core/template" name="back.to.top">
+            <action method="setTemplate" ifconfig="sd_backtotop/options/enabled">
+               <template>somethingdigital/backtotop/back-to-top.phtml</template>
+            </action>
+        </block>
     </reference>
   </default>
 </layout>
