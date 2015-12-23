@@ -1,5 +1,5 @@
 # SomethingDigital_BackToTop
-Adds a "Back to Top" link that when clicked, sends the user to the top of tha page.
+Adds a "Back to Top" link that when clicked, sends the user to the top of the page.
 
 Install via Modman
 ----------------

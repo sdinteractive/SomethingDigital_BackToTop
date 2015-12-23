@@ -30,7 +30,7 @@
     <sd_backtotop>
       <options>
         <enabled>1</enabled>
-        <persist>1</persist>
+        <persist>persist</persist>
         <scroll>500</scroll>
       </options>
       <design>
