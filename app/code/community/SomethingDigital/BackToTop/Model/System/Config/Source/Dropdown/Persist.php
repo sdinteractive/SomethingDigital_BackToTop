@@ -18,7 +18,7 @@
  * @license     https://opensource.org/licenses/MIT  The MIT License (MIT)
  */
 
-class SomethingDigital_BackToTop_Model_System_Config_Source_DropDown_Persist
+class SomethingDigital_BackToTop_Model_System_Config_Source_Dropdown_Persist
 {
   public function toOptionArray()
   {
