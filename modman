@@ -7,6 +7,7 @@ app/design/frontend/base/default/template/somethingdigital/backtotop/
 
 # skin
 skin/frontend/base/default/js/somethingdigital/back-to-top.js
+skin/frontend/base/default/images/somethingdigital/back-to-top.svg
 skin/frontend/base/default/css/somethingdigital/back-to-top.css
 
 # etc
