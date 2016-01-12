@@ -20,3 +20,8 @@
   display: block;
   margin-bottom: 5px;
 }
+
+.back-to-top__icon {
+  height: 20px;
+  width: 20px;
+}
