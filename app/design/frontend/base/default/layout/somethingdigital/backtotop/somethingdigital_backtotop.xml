@@ -24,5 +24,18 @@
             </action>
         </block>
     </reference>
+
+
+    <!-- Mix in this handle to remove back to top -->
+    <!-- <reference name="some.thing"> -->
+    <!--     <update handle="remove_back_to_top" /> -->
+    <!-- </reference> -->
+    <remove_back_to_top>
+        <reference name="before_body_end">
+            <remove name="back.to.top.config" />
+            <remove name="back.to.top.js" />
+            <remove name="back.to.top" />
+        </reference>
+    </remove_back_to_top>
   </default>
 </layout>
