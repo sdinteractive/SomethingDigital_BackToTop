@@ -27,15 +27,15 @@
 
   </default>
 
-  <!-- Mix in this handle to remove back to top -->
+  <!-- Mix in this handle to unset back to top -->
   <!-- <reference name="some.thing"> -->
-  <!--     <update handle="remove_back_to_top" /> -->
+  <!--     <update handle="unset_back_to_top" /> -->
   <!-- </reference> -->
-  <remove_back_to_top>
+  <unset_back_to_top>
       <reference name="before_body_end">
-          <remove name="back.to.top.config" />
-          <remove name="back.to.top.js" />
-          <remove name="back.to.top" />
+          <action method="unsetChild"><name>back.to.top.config</name></action>
+          <action method="unsetChild"><name>back.to.top.js</name></action>
+          <action method="unsetChild"><name>back.to.top</name></action>
       </reference>
-  </remove_back_to_top>
+  </unset_back_to_top>
 </layout>
